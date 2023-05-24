@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+
+name="    Sumit  "
+age=20
+# str() function use to convert non string to stirge
+message="happy "+str(age)+"rd birthday"
+a=3
+b=5
+# create a list
+car=['toyota','lambo','frreri','thar','scorpio']
+bike=['kawaski','zx10r','ducati','h2']
+names=["Sumit",'yuvraj','suraj','sena','aloukik','shivam']
+#operations on list insertion, deletion etc
+names.insert(0,'ducati')
+names.append('kawaski')#using append you can create a list dynamically
+del names[2]#removing element from list using index
+last_name=names.pop()#remove and store element in other variable
+any_name=names.pop(3)#remove element using index
+names.remove('aloukik')#remove element by value
+car.sort()#shorting list alphabetically
+bike.sort(reverse=True) #reverse alphabetically 
+bike.reverse()#for reverse the list
+car.sorting()
+print(name[7],name.rstrip(),name.strip(),name.lstrip())
+print('\tElbert Einstein says that,\n\t"a person who never made a \n\tmistake never create \n\tsomething new " ')
+print(a+b,a*b,b/a,b%a,b//a,3.0//2.0)#airthmetic operation
+#for access element
+print(message,"\n",names,"\n",names[2],"\n",names[-1])
+print(names,last_name,any_name,car,bike)
+#for temporary sorting of list
